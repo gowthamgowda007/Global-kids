@@ -1304,6 +1304,12 @@ footer {
 }
 
 @media (max-width: 768px) {
+
+  /* White menu bar on mobile */
+  nav, nav.scrolled { background: #ffffff !important; border-bottom: 1px solid rgba(0,0,0,0.08); }
+  .logo-name { color: var(--navy) !important; }
+  .hamburger span { background: var(--navy) !important; }
+
   .nav-links { display: none; }
   .hamburger { display: flex; }
   .mobile-menu { display: block; }
